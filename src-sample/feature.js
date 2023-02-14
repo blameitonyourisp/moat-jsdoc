@@ -1,9 +1,9 @@
 /**
  * @function
  * 
- * @moat {t_feature}
+ * @moat {t_feature|s_closed}
  * Z8I-2MS
- * Temporary ticket
+ * Temporary ticket (now completed)
  * This ticket will be deleted from inside the file, but the file itself will
  * not be deleted
  */
