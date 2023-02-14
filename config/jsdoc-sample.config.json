@@ -1,0 +1,32 @@
+{
+    "opts": {
+        "destination": "./jsdoc-sample/",
+        "recurse": true,
+        "template": "templates/default"
+    },
+    "plugins": [ 
+        "plugins/markdown",
+        "../../src"
+    ],
+    "markdown": {
+        "tags": ["todo"],
+        "hardwrap": true
+    },
+    "moat-jsdoc": {
+        "ticket-store": "/moat.json"
+    },
+    "recurseDepth": 10,
+    "source": {
+        "include": ["src-sample"],
+        "includePattern": ".+\\.js(doc|x)?$"
+    },
+    "sourceType": "module",
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc", "closure"]
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    }
+}

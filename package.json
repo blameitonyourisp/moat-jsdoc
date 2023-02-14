@@ -1,0 +1,35 @@
+{
+    "name": "moat-jsdoc",
+    "version": "0.0.1",
+    "description": "The mother of all todo plugins for jsdoc",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "docs": "jsdoc -c ./config/jsdoc.config.json",
+        "docs-sample": "jsdoc -c ./config/jsdoc-sample.config.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/blameitonyourisp/moat-jsdoc.git"
+    },
+    "keywords": [
+        "todo",
+        "moat",
+        "jsdoc",
+        "ticketing"
+    ],
+    "author": "James Reid",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/blameitonyourisp/moat-jsdoc/issues"
+    },
+    "homepage": "https://github.com/blameitonyourisp/moat-jsdoc#readme",
+    "devDependencies": {
+        "jest": "^29.4.2"
+    },
+    "dependencies": {
+        "jsdoc": "^4.0.0",
+        "marked": "^4.2.12",
+        "mustache": "^4.2.0"
+    }
+}
