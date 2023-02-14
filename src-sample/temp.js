@@ -1,7 +1,7 @@
 /**
  * @function
  * 
- * @moat {t_feature|s_open|b_master}
+ * @moat {t_feature|p_0|s_open|b_master}
  * EI3-491
  * Temporary ticket to be deleted
  * This function needs a return statement
