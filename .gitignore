@@ -4,3 +4,6 @@ node_modules
 # jsdoc auto-generated output
 jsdoc
 jsdoc-sample
+
+# temporary todo file
+todo.md
