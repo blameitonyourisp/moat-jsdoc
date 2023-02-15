@@ -11,7 +11,9 @@
  * Long term feature ticket
  * Here is the body of a feature ticket which will be changed multiple commits 
  * after its creation:
- *      - [ ] here is the first uncompleted task that need to be resolved
+ *      - [X] here is the first uncompleted task that need to be resolved
+ *      - [ ] the first task has been completed, but here is another task that
+ *      must be finished
  */
 function feature() {
     // here is a really great feature implementation in the sample codebase...
