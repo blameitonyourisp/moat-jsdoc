@@ -1,6 +1,6 @@
 /**
- * @file
- * 
+ * @file Sample bug file
+ * @author James Reid
  */
 
 /**
